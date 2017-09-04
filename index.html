@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vue.js双向绑定实现</title>
+</head>
+<style>
+  #app {
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+  }
+</style>
+
+<body>
+  <div id="app">
+    <input type="text" v-model="text">
+    <div>内容为:{{ text }}</div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
